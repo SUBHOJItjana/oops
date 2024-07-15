@@ -6,24 +6,24 @@ speed_limit = 60
 
 class Vehicle:
     def start_engine(self):
-        message = "Engine started."
-        print(message)
+        m = "Engine started."
+        print(m)
 
 class Car(Vehicle):
     def __init__(self, make):
         self.make = make
 
     def start_engine(self):
-        message = "Car engine started."
-        print(message)
+        m = "Car engine started."
+        print(m)
 
 class Bike(Vehicle):
     def __init__(self, type):
         self.type = type
 
     def start_engine(self):
-        message = "Bike engine started."
-        print(message)
+        m = "Bike engine started."
+        print(m)
 
 # Example usage
 car = Car("Toyota")
